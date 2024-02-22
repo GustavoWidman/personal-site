@@ -15,9 +15,11 @@ const Card: React.FC<CardProps> = ({ title, link, image, image2, children }) => 
 	const img = useRef<HTMLImageElement | null>(null);
 	return (
 	<div className={`
-		hover:bg-[#161616] transition duration-300 bg-[#121212] rounded-md
-		shadow-[4px_4px_0_white]
-		hover:shadow-none w-[500px] hover:scale-[1.01] hover:-rotate-1 m-auto my-10`
+		hover:bg-[#131313] transition duration-300 bg-[#0e0e0e] rounded-md
+		shadow-[8px_8px_0_white]
+		hover:shadow-none w-[500px] hover:scale-[1.01] hover:-rotate-1 m-auto my-10
+		border-4
+		`
 	}>
 		<a href={link} target='_blank' rel='noopener noreferrer'>
 			<div className=''

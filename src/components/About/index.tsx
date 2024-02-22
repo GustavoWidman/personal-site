@@ -1,5 +1,5 @@
 export const AboutComponent = () => (
-	<div className="flex flex-wrap pb-0 max-w-[700px] m-auto">
+	<div className="flex flex-wrap pb-0 max-w-[850px] m-auto">
 		<div>
 			<h4 className="text-4xl mb-4">Paragrafozinho:</h4>
 			<p className="mb-10">
